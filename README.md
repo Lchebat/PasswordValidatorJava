@@ -2,7 +2,7 @@
 Validador de senhas. (Java 17, Spring Boot 2.7.0, jUnit)
 
 # Como Utilizar
-- Faça uma requisição POST para a url: https://chebat-password-java.azurewebsites.net/password
+- Faça uma requisição POST para a url: https://chebat-password-java.herokuapp.com/password
 - No corpo da requisição enviar a senha em  formato JSON
 ```
 {
