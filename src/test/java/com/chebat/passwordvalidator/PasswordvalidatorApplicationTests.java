@@ -52,7 +52,7 @@ class PasswordvalidatorApplicationTests
 	{
 		var password = "AbTp9!foa";
 		var result = _service.VerifyPassword(password);
-		assertEquals(false, result);
+		assertEquals(true, result);
 	}
 
 	@Test
