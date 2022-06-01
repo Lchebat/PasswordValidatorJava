@@ -14,11 +14,7 @@ public class PasswordController
 {
 	@Autowired
 	private IPasswordService _service;
-	
-	// public PasswordController(IPasswordService service) {
-	//	_service = service;
-	// }
-	
+
 	@PostMapping("/password")
 	@ResponseBody
 	public Boolean password(@RequestBody PasswordModel model)
